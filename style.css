@@ -13,14 +13,14 @@ body {
 .board{
     height: 480px;
     width: 460px;
-    background-color: rgba(30, 245, 41, 0.534);
+    background-color: rgba(30, 245, 41, 0.26);
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     perspective: 1000px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: -4px 10px 10px 10px rgba(0, 0, 0, 0.363);
 }
 .shake {
@@ -82,7 +82,7 @@ body {
     position: relative;
     transform-style: preserve-3d;
     transition: all 0.8s ease;
-    box-shadow: -4px 10px 10px 10px rgba(0, 0, 0, 0.363);
+    box-shadow: -4px 5px 5px 5px rgba(0, 0, 0, 0.363);
     cursor: pointer;
 }
 
