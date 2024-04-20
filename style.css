@@ -7,13 +7,13 @@ body {
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
-    background-color: rgb(50, 119, 248);
+    background-color: rgb(30, 187, 192);
     display: flex;
 }
 .board{
     height: 480px;
     width: 460px;
-    background-color: aliceblue;
+    background-color: rgba(30, 245, 41, 0.534);
     margin: auto;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ body {
     flex-wrap: wrap;
     perspective: 1000px;
     border-radius: 10px;
-    box-shadow: -3px 5px 5px 3px rgba(0, 0, 0, 0.363);
+    box-shadow: -4px 10px 10px 10px rgba(0, 0, 0, 0.363);
 }
 .shake {
     animation: shaking 0.35s ease-in-out;
@@ -76,7 +76,7 @@ body {
 .card {
     height: 100px;
     width: 91px;
-    background-color: rgb(50, 119, 248, 0.651);
+    background-color: rgba(115, 204, 31, 0.651);
     border-radius: 10px;
     margin: 0px 10px;
     position: relative;
@@ -100,8 +100,8 @@ body {
 }
 
 .card .front {
-    color: aliceblue;
-    background-color:rgba(50, 119, 248, 0.651);
+    color: rgb(3, 7, 10);
+    background-color:rgba(216, 14, 14, 0.651);
     display: flex;
     justify-content: center;
     align-items: center;
