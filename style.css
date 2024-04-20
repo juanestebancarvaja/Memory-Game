@@ -20,7 +20,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     perspective: 1000px;
-    border-radius: 0px;
+    border-radius: 15px;
     box-shadow: -4px 10px 10px 10px rgba(0, 0, 0, 0.363);
 }
 .shake {
@@ -96,7 +96,7 @@ body {
     height: 100%;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 .card .front {
