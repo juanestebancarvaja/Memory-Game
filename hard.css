@@ -104,7 +104,7 @@ body {
     align-items: center;
     color: aliceblue;
     box-shadow: -3px 5px 5px 3px rgba(0, 0, 0, 0.363);
-    background-color: rgba(8, 91, 245, 0.925);
+    background-color: rgba(8, 245, 174, 0.801);
     font-size: 1.6rem;
     font-weight: 600;
 }
@@ -116,7 +116,7 @@ body {
 .card {
     height: 100px;
     width: 91px;
-    background-color: rgba(8, 91, 245, 0.651);
+    background-color: rgba(105, 226, 35, 0.849);
     border-radius: 10px;
     margin: 0px 10px;
     position: relative;
@@ -141,7 +141,7 @@ body {
 
 .card .front {
     color: aliceblue;
-    background-color: rgba(8, 91, 245, 0.651);
+    background-color: rgba(199, 188, 34, 0.87);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,13 +179,13 @@ body {
 #level2 {
     width: 120px;
     height: 50px;
-    border: 1px solid rgba(8, 91, 245, 0.925);
+    border: 1px solid rgba(223, 79, 35, 0.925);
     border-radius: 10px;
     margin: 0px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(8, 91, 245, 0.651);
+    color: rgba(245, 8, 245, 0.651);
     font-size: 1.4rem;
     font-weight: 600;
     cursor: pointer;
@@ -193,7 +193,7 @@ body {
 #refresh:hover,
 #level2:hover{
     color: aliceblue;
-    background-color: rgba(8, 91, 245, 0.651);
+    background-color: rgba(209, 20, 20, 0.877);
 }
 
 .trigger{
