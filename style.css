@@ -7,7 +7,7 @@ body {
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
-    background-color: rgb(30, 187, 192);
+    background-image:url("images/fondo-oceanico-U30775003796Ey--1248x698@abc.jpg");
     display: flex;
 }
 .board{
